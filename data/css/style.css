@@ -1,5 +1,67 @@
-html {
+@import "https://fonts.googleapis.com/css?family=Quicksand:300";
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
 
-    background: rgb(23, 23, 23) !important;
+html, body {
 
+    background: #557E79;
+    background: linear-gradient(-45deg, #557EB5, #66567E, #A39639, #3BB43E);
+    background-size: 400%;
+    animation: Gradient 60s ease infinite;
+
+
+    color: white !important;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+
+}
+
+@-webkit-keyframes Gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+p {font-weight: lighter;}
+a {text-decoration: none; color: inherit;}
+li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: .5s;
+}
+.fab, .fas {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.landing {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 15%;
+}
+
+.landing hr {
+    width: 24%;
+}
+
+.discord {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 15%;
+}
+
+.discord hr {
+    width: 50%;
 }
