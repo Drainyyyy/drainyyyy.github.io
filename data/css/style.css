@@ -37,11 +37,17 @@ li {
     border-radius: 50%;
     transition: .5s;
 }
+
 .fab, .fas {
     padding: 5px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+}
+
+.social-media-buttons li:hover {
+    border-radius: 20px;
+    color: aquamarine;
 }
 
 .landing {
