@@ -27,6 +27,7 @@ html, body {
 
 p {font-weight: lighter;}
 a {text-decoration: none; color: inherit;}
+a:hover {color: aquamarine;}
 li {
     list-style: none;
     margin: 10px 30px;
@@ -47,7 +48,6 @@ li {
 
 .social-media-buttons li:hover {
     border-radius: 20px;
-    color: aquamarine;
 }
 
 .landing {
@@ -70,4 +70,15 @@ li {
 
 .discord hr {
     width: 50%;
+}
+
+.copyright {
+    position: fixed;
+    left: 50%;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 1px;
+    border-bottom: none;
 }
