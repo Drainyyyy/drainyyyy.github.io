@@ -5,6 +5,7 @@ html, body {
 
     background: #557E79;
     background: linear-gradient(-45deg, #557EB5, #66567E, #A39639, #3BB43E);
+    background-attachment: fixed;
     background-size: 400%;
     animation: Gradient 60s ease infinite;
 
@@ -25,9 +26,19 @@ html, body {
     100% {background-position: 0% 50%;}
 }
 
+.scroll-down-arrow {
+    height: 80px;
+    width: 80px;
+    margin-top: 10%;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: .5s;
+}
+
 p {font-weight: lighter;}
-a {text-decoration: none; color: inherit;}
-a:hover {color: aquamarine;}
+a {text-decoration: none; color: aquamarine; transition: .5s}
+a:hover {color: white;}
 li {
     list-style: none;
     margin: 10px 30px;
@@ -46,10 +57,6 @@ li {
     text-decoration: none;
 }
 
-.social-media-buttons li:hover {
-    border-radius: 20px;
-}
-
 .landing {
     font-size: 30px;
     text-align: center;
@@ -57,9 +64,10 @@ li {
     margin-top: 15%;
 }
 
-.landing hr {
-    width: 24%;
-}
+.landing hr {width: 24%;}
+
+
+.social-media-buttons li:hover {border-radius: 20px;}
 
 .discord {
     font-size: 30px;
@@ -68,17 +76,37 @@ li {
     margin-top: 15%;
 }
 
-.discord hr {
-    width: 50%;
+.discord hr {width: 50%;}
+
+.post {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
 }
+
+.post .text {
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-bottom: 2%;
+}
+
+.post .desc {text-align: center;}
 
 .copyright {
     position: fixed;
-    left: 50%;
+    left: 16%;
     top: 97%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 1px;
     border-bottom: none;
+    border-left: none;
 }
