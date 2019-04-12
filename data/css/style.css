@@ -4,7 +4,7 @@
 html, body {
 
     background: #557E79;
-    background: linear-gradient(-45deg, #557EB5, #66567E, #A39639, #3BB43E);
+    background: linear-gradient(-45deg, #171717, #666699, #336699, #339966);
     background-attachment: fixed;
     background-size: 400%;
     animation: Gradient 60s ease infinite;
@@ -27,28 +27,21 @@ html, body {
 }
 
 .scroll-down-arrow {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-top: 10%;
-    padding: 1%;
+    padding: 0.5%;
     border: 1px solid white;
     border-radius: 50%;
     transition: .5s;
 }
 
+li {
+    list-style: none;
+}
 p {font-weight: lighter;}
 a {text-decoration: none; color: white; transition: .5s}
 a:hover {color: aquamarine;}
-li {
-    list-style: none;
-    margin: 10px 30px;
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-    border: 1px solid;
-    border-radius: 50%;
-    transition: .5s;
-}
 
 .fab, .fas {
     padding: 5px;
@@ -66,8 +59,17 @@ li {
 
 .landing hr {width: 24%;}
 
-
 .social-media-buttons li:hover {border-radius: 20px;}
+
+.social-media-buttons li {
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: .5s;
+}
 
 .discord {
     font-size: 30px;
@@ -78,13 +80,66 @@ li {
 
 .discord hr {width: 50%;}
 
-.post {
+.project {
     position: relative;
-    margin-top: 10%;
     margin-bottom: 5%;
     width: 100%;
     font-size: 22px;
     text-align: center;
+}
+
+.project-name {
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    margin-bottom: 25%;
+}
+
+.project-box {
+    text-align: left;
+    position: relative;
+    left: 4%;
+    width: 80%;
+
+    padding: 1%;
+    border-left: 5px solid currentColor;
+    border-radius: 5px;
+    margin-top: 2%;
+
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+#project-links {
+    text-align: center;
+}
+
+#project-links ul {
+    display: table;
+    box-sizing: border-box;
+
+    width:100%;
+}
+
+#project-links li {
+    display: table-cell;
+}
+
+#project-links li a {
+    padding: 1% 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.copyright {
+    position: fixed;
+    left: 16%;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 1px;
+    border-bottom: none;
+    border-left: none;
 }
 
 .post .text {
@@ -98,15 +153,3 @@ li {
 }
 
 .post .desc {text-align: center;}
-
-.copyright {
-    position: fixed;
-    left: 16%;
-    top: 97%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 1px;
-    border-bottom: none;
-    border-left: none;
-}
