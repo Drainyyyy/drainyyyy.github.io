@@ -51,7 +51,7 @@ a:hover {color: aquamarine;}
 }
 
 .landing {
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     position: relative;
     margin-top: 15%;
@@ -71,15 +71,6 @@ a:hover {color: aquamarine;}
     transition: .5s;
 }
 
-.discord {
-    font-size: 30px;
-    text-align: center;
-    position: relative;
-    margin-top: 15%;
-}
-
-.discord hr {width: 50%;}
-
 .project {
     position: relative;
     margin-bottom: 5%;
@@ -88,7 +79,7 @@ a:hover {color: aquamarine;}
     text-align: center;
 }
 
-.project-name {
+.headbar {
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 20%;
@@ -104,16 +95,23 @@ a:hover {color: aquamarine;}
     padding: 1%;
     border-left: 5px solid currentColor;
     border-radius: 5px;
-    margin-top: 2%;
+    margin-bottom: 3%;
 
     background-color: rgba(0, 0, 0, 0.3)
 }
 
+
+.project-box li{
+    list-style: disc;
+}
+
 #project-links {
+    border: 5px solid currentColor;
     text-align: center;
 }
 
 #project-links ul {
+    text-align: center;
     display: table;
     box-sizing: border-box;
 
@@ -130,6 +128,28 @@ a:hover {color: aquamarine;}
     border-radius: 5px;
 }
 
+#index-headbar {
+    margin-bottom: 2%;
+}
+
+.post {
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    padding: 1%;
+}
+
+.text {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    padding: 1%;
+    margin-bottom: 3%;
+
+    border: 5px solid currentColor;
+    border-radius: 5px;
+}
+
 .copyright {
     position: fixed;
     left: 16%;
@@ -141,15 +161,3 @@ a:hover {color: aquamarine;}
     border-bottom: none;
     border-left: none;
 }
-
-.post .text {
-    width: 60%;
-    display: inline-block;
-    text-align: left;
-    padding: 1%;
-    border: 1px solid white;
-    border-radius: 50px;
-    margin-bottom: 2%;
-}
-
-.post .desc {text-align: center;}
