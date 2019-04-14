@@ -95,9 +95,16 @@ a:hover {color: aquamarine;}
     border-radius: 5px;
     margin-bottom: 3%;
 
-    background-color: rgba(0, 0, 0, 0.3)
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .5s;
 }
 
+.project-box:hover {
+    left: 6%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
 
 .project-box li{
     list-style: disc;
@@ -149,13 +156,9 @@ a:hover {color: aquamarine;}
 }
 
 .copyright {
-    position: fixed;
-    left: 16%;
-    top: 97%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
     padding: 10px;
-    border: 1px solid white;
-    border-radius: 1px;
-    border-bottom: none;
-    border-left: none;
+    border-top: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
