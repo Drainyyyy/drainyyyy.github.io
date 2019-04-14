@@ -156,9 +156,12 @@ a:hover {color: aquamarine;}
 }
 
 .copyright {
-    position: relative;
+    position: fixed;
+    top: 96%;
+    width: 100%;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-top: 1px solid white;
     background-color: rgba(0, 0, 0, 0.3);
 }
