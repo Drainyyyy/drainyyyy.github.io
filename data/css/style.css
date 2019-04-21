@@ -69,6 +69,12 @@ a:hover {color: aquamarine;}
     transition: .5s;
 }
 
+.discord-server-link {
+    padding: 0.5%;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
 .project {
     position: relative;
     margin-bottom: 5%;
