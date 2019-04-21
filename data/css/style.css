@@ -48,6 +48,29 @@ a:hover {color: aquamarine;}
     text-decoration: none;
 }
 
+.nav {
+    position: fixed;
+    top: 1%;
+    transform: translate(0, -50%);
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1% 0 1% 0;
+
+    border-bottom: 1px solid currentColor;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 4% 0 4%;
+    border-right: 1px solid currentColor;
+    border-left: 1px solid currentColor;
+}
+
+.nav #active {
+    color: rgb(143, 143, 143);
+}
+
 .landing {
     font-size: 22px;
     text-align: center;
@@ -69,7 +92,7 @@ a:hover {color: aquamarine;}
     transition: .5s;
 }
 
-.discord-server-link {
+.h3-link {
     padding: 0.5%;
     border: 1px solid currentColor;
     border-radius: 5px;
@@ -99,7 +122,6 @@ a:hover {color: aquamarine;}
     padding: 1%;
     border-left: 5px solid currentColor;
     border-radius: 5px;
-    margin-bottom: 3%;
 
     background-color: rgba(0, 0, 0, 0.3);
     transition: .5s;
@@ -155,19 +177,20 @@ a:hover {color: aquamarine;}
     width: 80%;
     left: 10%;
     padding: 1%;
-    margin-bottom: 3%;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.3);
 
-    border: 5px solid currentColor;
+    border: 1px solid currentColor;
     border-radius: 5px;
 }
 
 .copyright {
-    position: fixed;
-    top: 96%;
+    position: relative;
+    top: 95%;
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-top: 15%;
+    padding: 1% 0 1% 0;
     border-top: 1px solid white;
     background-color: rgba(0, 0, 0, 0.3);
 }
