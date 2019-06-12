@@ -197,3 +197,14 @@ a:hover {color: aquamarine;}
     border-top: 1px solid white;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+#project-listing a {
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#project-listing a:hover {
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
